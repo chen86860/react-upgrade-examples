@@ -1,0 +1,23 @@
+{
+  "name": "ReactStictMode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-webpack-plugin": "^4.0.0-alpha.2",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "react-upgrade-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chen86860/react-upgrade-examples.git",
+  "author": "Jack <chen86860@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
