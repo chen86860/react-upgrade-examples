@@ -1,12 +1,12 @@
 # 盘点 React 16.0 ~ 16.5 主要更新及其应用
 
-> 大约一年前，React 团队发布了 React 16.0。时至今日，已更新到 16.5 。这其中有不少激动人心的特性(如 Fiber 架构的引入、新的周期函数、全新 Content API、Fragment、Error Boundary、Portal 等)都值得开发者跟进学习。本文就以 [React 更新日志](https://github.com/facebook/react/blob/master/CHANGELOG.md) 为引，选取几个重要且用于工作的更新，和大家一起学习。所有示例代码在 [react-upgrade-examples](https://github.com/chen86860/react-upgrade-examples), 配合文章一起食用更佳~ 😆
+> 大约一年前，React 团队发布了 React 16.0。时至今日，已更新到 16.5 。这其中有不少激动人心的特性(如 Fiber 架构的引入、新的周期函数、全新 Context API、Fragment、Error Boundary、Portal 等)都值得开发者跟进学习。本文就以 [React 更新日志](https://github.com/facebook/react/blob/master/CHANGELOG.md) 为引，选取几个重要且用于工作的更新，和大家一起学习。所有示例代码在 [react-upgrade-examples](https://github.com/chen86860/react-upgrade-examples), 配合文章一起食用更佳~ 😆
 
 # 目录
 
 ## [0. 生命周期函数的更新](##生命周期函数的更新)
 
-## [1. 全新的 Content API](##全新的%20Context%20API)
+## [1. 全新的 Context API](##全新的%20Context%20API)
 
 ## [2. React Strict Mode](##React%20Strict%20Mode)
 
