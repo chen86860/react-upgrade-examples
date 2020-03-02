@@ -1,12 +1,12 @@
 # 盘点 React 16.0 ~ 16.5 主要更新及其应用
 
-> 大约一年前，React 团队发布了 React 16.0。时至今日，已更新到 16.5 。这其中有不少激动人心的特性(如 Fiber 架构的引入、新的周期函数、全新 Content API、Fragment、Error Boundary、Portal 等)都值得开发者跟进学习。本文就以 [React 更新日志](https://github.com/facebook/react/blob/master/CHANGELOG.md) 为引，选取几个重要且用于工作的更新，和大家一起学习。所有示例代码在 [react-upgrade-examples](https://github.com/chen86860/react-upgrade-examples), 配合文章一起食用更佳~ 😆
+> 大约一年前，React 团队发布了 React 16.0。时至今日，已更新到 16.5 。这其中有不少激动人心的特性(如 Fiber 架构的引入、新的周期函数、全新 Context API、Fragment、Error Boundary、Portal 等)都值得开发者跟进学习。本文就以 [React 更新日志](https://github.com/facebook/react/blob/master/CHANGELOG.md) 为引，选取几个重要且用于工作的更新，和大家一起学习。所有示例代码在 [react-upgrade-examples](https://github.com/chen86860/react-upgrade-examples), 配合文章一起食用更佳~ 😆
 
 # 目录
 
 ## [0. 生命周期函数的更新](##生命周期函数的更新)
 
-## [1. 全新的 Content API](##全新的%20Context%20API)
+## [1. 全新的 Context API](##全新的%20Context%20API)
 
 ## [2. React Strict Mode](##React%20Strict%20Mode)
 
@@ -24,7 +24,7 @@
 
 ## 生命周期函数的更新
 
-随着 React 16.0 发布, React 采用了新的内核架构 Fiber，在新的架构中它将更新分为两个阶段：Render Parse 和 Commit Parse， 也由此引入了 `getDerivedStateFromProps` 、 `getSnapshotBeforeUpdate` 及 `componentDidCatch` 等三个生命周期函数。同时，也将 `componentWillUpdate`、`componentWillReceiveProps` 和 `componentWillUpdate` 标记为不安全的方法。
+随着 React 16.0 发布, React 采用了新的内核架构 Fiber，在新的架构中它将更新分为两个阶段：Render Parse 和 Commit Parse， 也由此引入了 `getDerivedStateFromProps` 、 `getSnapshotBeforeUpdate` 及 `componentDidCatch` 等三个生命周期函数。同时，也将 `componentWillMount`、`componentWillReceiveProps` 和 `componentWillUpdate` 标记为不安全的方法。
 
 ![new lifecycle](./img/new-lifecycle.jpg)
 
@@ -435,6 +435,8 @@ render(){
 
 以上。
 
+Find me on ![Github](https://github.com/chen86860)
+
 ## 参考：
 
 1. [React Docs](https://reactjs.org/docs/getting-started.html)
@@ -444,3 +446,11 @@ render(){
 5. [React 16: A look inside an API-compatible rewrite of our frontend UI library](https://code.fb.com/web/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/)
 
 6. [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture)
+
+---
+
+-------我是分割线-----------
+
+另，我厂 **VPGAME** 在招JAVA、测试、前端、运营。大牛巨多，老板超级nice。欢迎童鞋简历来扰(传送门 hr@vpgame.cn) 🤣🤣🤣 
+
+[【威佩_威佩招聘】杭州威佩网络科技有限公司招聘信息-拉勾网](https://www.lagou.com/gongsi/50576.html?code=081sSfxv0bjp7b1WWBvv0isnxv0sSfx8&state=)
